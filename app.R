@@ -13,7 +13,7 @@
 source(file.path("server", "scripts", "loadLibreries.R"))
 
 # Load all files to execute multiplot and gene browser funtionalities
-#source(file.path("server", "scripts", "loadFiles.R"), local = TRUE)$value
+source(file.path("server", "scripts", "loadFiles.R"), local = TRUE)$value
 
 # If RStudio shows error "" execute commands:
 # 1 - unloadNamespace("shiny")
