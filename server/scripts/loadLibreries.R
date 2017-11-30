@@ -18,7 +18,9 @@ pacman::p_load(shiny,           # ->
                plotly,          # ->
                Hmisc,          # ->
                shinyBS, 
-               biomaRt
+               biomaRt,
+               refGenome,
+               DT
 ) 
 
 #devtools::install_github('hadley/ggplot2')
