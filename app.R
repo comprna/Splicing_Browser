@@ -17,6 +17,7 @@
 
 # If RStudio shows error "" execute commands:
 # 1 - unloadNamespace("shiny")
+# 2 - require(shiny)
 
 
 ######################################################################################
