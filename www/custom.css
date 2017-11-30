@@ -1,0 +1,257 @@
+body{
+  background-color: blue;
+}
+#loading-content {
+  position: absolute;
+  background: #000000;
+  opacity: 0.9;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 100%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.main-header .logo {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+.shiny-server-account{
+  display: none;
+}
+#selectedFile, #dataResults {
+  overflow-x: scroll;
+}
+.shiny-tab-input li:hover{
+  background-color:white;
+  border-top-color: #337297;
+  color: black;
+}
+.nav-tabs-custom{
+  color: black;
+  min-height:130px;
+}
+.dataTables_wrapper {
+  font-size: 14.5px;
+}
+#clear, #loc, #inputSearch, #goButton, #upload, #list, #location_str, #go_left, #go_right, #zoom_in, #zoom_out {
+  float: left;
+  margin:0;
+}
+#clear, #goButton, #go_left, #go_right, #zoom_in, #zoom_out, #list {
+  width: 10%;
+}
+.box-title{
+  width: 100%;
+  padding:0;
+}
+.box.box-solid.box-primary>.box-header .btn, .box.box-solid.box-primary>.box-header, .box.box-solid.box-primary>.box-header .btn, .box.box-solid.box-primary>.box-header a, .box.box-solid.box-primary>.box-header .btn, .box.box-solid.box-primary>.box-header span {
+    color: black;
+    font-size:14.5px;
+}
+
+.firstInput{
+    padding-right: 0;
+    padding-left: 0;
+}
+.box, .nav-tabs-custom  {
+    margin-bottom: 0;
+}
+#inputSearch{
+  width:65%;
+}
+#location_str {
+    width: 100%;
+    font-size:0.8em;
+    display: none;
+    visibility: hidden;
+}
+#eventList{
+  font-size:0.8em;
+  padding-left: 1%;
+  color:red;
+}
+#loc {
+    width: 50%;
+    font-size:11.5px;
+    line-height: normal;
+}
+
+.twitter-typeahead{
+  width:100%;
+}
+
+/*#events{
+  margin-top:14%;
+}*/
+#eventList{
+width: 100%;
+  float:left;
+  padding: 1.8% 0;
+}
+
+#add, #remove, #modify {
+  width: 24.5%;
+}
+
+#errMsj{
+  margin: 10% 0;
+}
+
+#input1, #input2 {
+    font-size: 12;
+}
+
+#filters > div {
+  padding: 0;
+}
+
+#firstParameter, #otherParameter {
+  width: 49.5%;
+}
+
+#otherParameter {
+  /*background-color: blue;*/
+  float: right;
+}
+
+#firstParameter {
+  /*background-color: yellow;*/
+  float: left;
+}
+
+.box.box-solid.box-primary>.box-header, .skin-blue .main-header .logo {
+    background-color: black;
+}
+header:hover {
+    background-color: black;
+}
+
+
+#parameter1Data > .shiny-options-group .radio:first-child {
+  margin-top:0;
+}
+
+#otherParameters .radio:first-child {
+  margin-top: 7px;
+}
+
+#parameter1Type, #otherParameters {
+  margin-top: 20px;
+}
+
+#parameter1Data, .otherParametersData  {
+  height: 200px;
+  overflow-y: scroll;
+  width: 49%;
+  float: left;
+  background-color: #E6E6E6  ;
+  padding: 2%;
+  margin: 2% 0.5% 0 0.5%;
+}
+.skin-blue .main-header .logo:hover {
+    background-color: black;
+}
+.radio:hover, .radio span:hover{
+  background-color: #D8D8D8;
+  font-weight: bold;
+}
+.radio span:hover{
+  font-size:3em;
+}
+.checkbox span:hover {
+  font-weight: bold;
+}
+.box.box-primary {
+    border-top-color: black;
+    background-color: #E6E6E6;
+}
+#chooseEvens {
+    padding: 0 10px;
+}
+.box-header {
+    color: white;
+    background-color: black;
+}
+.box.box-solid.box-primary {
+    border: 0px ;
+}
+.skin-blue .main-header .navbar {
+    background-color: black;
+}
+#tabset2 .form-group, #tabset2 .selectize-control {
+    margin-bottom: 0;
+}
+.style {
+    border-top-width: 0px;
+}
+.box {
+    border-top: 0px;
+}
+.box.box-solid.box-primary > .box-header > .box-tools.pull-right > .btn{
+    color: white;
+    font-size: 14.5px;
+}
+
+.box {
+  border: 1px solid white;
+}
+
+#eventList .box-tools.pull-right .btn{
+    color: white;
+    font-size: 14.5px;
+}
+
+.row{
+  margin-bottom: 50px;
+}
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+
+#dataResults {
+  height: 200px;
+}
+
+#upload {
+  width:15%;
+}
+#addParameter, #removeParameter, #resetParameters, #goPlot {
+  width:10%;
+  float:left;
+}
+#change {
+  width:20%;
+  float:left;
+}
+#tabset1 {
+  padding-top: 0px;
+}
+.selectize-input {
+    float: left;
+}
+#todecide{
+  margin-bottom: 5%;
+}
+
+.modal-footer, .modal-header { 
+  display:none
+  
+}
+
+#textErrors {
+  width: 100%;
+  margin-bottom: 3%;
+}
+#patDataFile, #clinDataFile, #gtfFile {
+  height: 50px;
+}
+#closeUpload, #closeChange {
+  float: right;
+}
